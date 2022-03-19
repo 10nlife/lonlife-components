@@ -7,7 +7,7 @@ import { name } from './package.json'
 const file = type => `dist/${name}.${type}.js`
 const overrides= {
   compilerOptions: { declaration: true },
-  exclude: ['src/main.ts', 'src/App.vue']
+  exclude: ['src/main.ts', 'src/App.vue', 'tests']
 }
 export { name, file }
 const baseConfig = {
