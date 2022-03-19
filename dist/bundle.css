@@ -1,0 +1,11 @@
+.main-nav[data-v-2ec11c62] {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #757575;
+  cursor: pointer;
+}
+.main-nav .title[data-v-2ec11c62] {
+  margin: 0 5px;
+  font-size: 14px;
+}
